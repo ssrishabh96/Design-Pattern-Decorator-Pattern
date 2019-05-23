@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class HouseBlend extends Beverage {
 
-public class HouseBlend {
+    public HouseBlend(){
+        description="House Blend";
+    }
+
+    @Override
+    public double cost() {
+        return 0.89;
+    }
 }

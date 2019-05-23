@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class DarkRoast extends Beverage {
 
-public class DarkRoast {
+    public DarkRoast(){
+        description="Dark Roast";
+    }
+
+    @Override
+    public double cost() {
+        return 1.59;
+    }
 }

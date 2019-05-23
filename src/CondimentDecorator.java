@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+public abstract class CondimentDecorator extends Beverage{
 
-public class CondimentDecorator {
+    public abstract String getDescription();
 }

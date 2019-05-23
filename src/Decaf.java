@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Decaf extends Beverage {
 
-public class Decaf {
+    public Decaf(){
+        description="Decaffaine";
+    }
+
+    @Override
+    public double cost() {
+        return 0.79;
+    }
 }
